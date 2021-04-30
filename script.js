@@ -2,7 +2,7 @@
 
 const marks = [99, 97, 94, 91, 90, 88, 72, 65];
 
-const [firstNum, secondNum, thirdNum, ...allRemainingMarks] = marks;
+const [firstNum, secondNum, thirdNum, ...allRemainingNum] = marks;
 
 //<--
 
@@ -56,11 +56,3 @@ const movieSummary = movies.map(({ title, year, score }) => {
 });
 
 // <--
-
-// // Try to Understand this code :
-
-// for (let i = 0; i < 10; ++i) {
-//   setTimeout(function () {
-//     alert(i);
-//   }, 1000);
-// }
